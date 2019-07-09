@@ -26,7 +26,6 @@ class App extends Component {
       hero.clicked = false;
     });
     this.setState({ score: 0 });
-    return true;
   }
   //on click, use filter method grab id, if "not clicked/false", set to true and add to score
   clickCheck = id => {
@@ -40,7 +39,6 @@ class App extends Component {
       });
       //use sort method and math random to change the layout order
       this.state.heroes.sort(() => Math.random() - 0.5)
-      return true;
     } else {
       this.setState({
         message: "Incorrect"

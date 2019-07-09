@@ -1,0 +1,14 @@
+#container {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiiuZQrG_bkMrp-cJhIrxFQATuuAyS4K3NGtRi1LwpimCktUNb");
+  background-position: center;
+  background-size: cover;
+  margin-top: -1rem;
+}
+
+.wrapper {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

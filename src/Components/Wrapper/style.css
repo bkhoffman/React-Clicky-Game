@@ -3,14 +3,13 @@
   /* background-color: red; */
   background-position: center;
   background-size: cover;
-  /* margin-top: 0em; */
+  /* margin-top: em; */
 }
 
 .wrapper {
-  max-width: 70%;
-  margin: 125px auto;
+  max-width: 90%;
+  margin: 12% auto;
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  
 }

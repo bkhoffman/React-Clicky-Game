@@ -2,12 +2,12 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 1;
   width: 100%;
   background-color: black;
   text-align: center;
-  height: 4rem;
-  font-size: 1rem;
+  height: 8rem;
+  font-size: 2rem;
   line-height: 4rem;
   font-weight: bold;
   color: white;
@@ -15,16 +15,18 @@
 }
 
 .title {
+  margin-top: 2%;
   float: left;
 }
 
 .scores {
+  margin-top: 2%;
   float: right;
-  padding-right: 1rem;
+  padding-right: 4rem;
 }
 
 .message {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 980px) {
